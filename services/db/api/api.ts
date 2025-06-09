@@ -4,7 +4,7 @@ import { TaskTypes } from '../../../types/taskTypes';
 import { useAuthStore } from '../../cache/stores/storeZustand';
 
 // URL base
-const API_URL = 'http://15.229.11.44:3000';
+const API_URL = 'http://15.228.244.159:3000';
 
 const saveTokens = (idToken: string, refreshToken: string) => {
     useAuthStore.getState().updateTokens(idToken, refreshToken);
